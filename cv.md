@@ -11,7 +11,7 @@ Vladimir Lukianenko
 
 My goal is to become a web developer and find a job. I have a great desire to learn new things. I have the ability to learn quickly due to the thirst for new knowledge and interest in web development.
 
-## My skills (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
+## My skills
 
 - basic knowledge of HTML
 - basic knowledge of CSS
