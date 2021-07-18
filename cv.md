@@ -4,8 +4,8 @@ Vladimir Lukianenko
 
 ## Contacts
 
-*mail: vladi.lukianenko@gmail.com
-*telegram: @Vladi_the_Great
+- mail: vladi.lukianenko@gmail.com
+- telegram: @Vladi_the_Great
 
 ## About me
 
@@ -13,10 +13,10 @@ My goal is to become a web developer and find a job. I have a great desire to le
 
 ## My skills (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
 
-*basic knowledge of HTML
-*basic knowledge of CSS
-*basic knowledge of Git&Github
-*a little understanding of working with VS Code
+- basic knowledge of HTML
+- basic knowledge of CSS
+- basic knowledge of Git&Github
+- a little understanding of working with VS Code
 
 ## Code examples
 
