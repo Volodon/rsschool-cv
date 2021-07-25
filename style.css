@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 1.1;
+  text-align: center;
+  background-color: rgb(179, 179, 179);
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 1.1;
+  text-align: center;
+  background-color: rgb(179, 179, 179);
+  margin: 0;
+  padding: 0;
+  margin-bottom: -15px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  text-align: center;
+  background-color: rgb(179, 179, 179);
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-align: left;
+}
+
+.photo {
+  border-radius: 50%;
+  border: 0px solid rgb(170, 170, 170);
+  box-shadow: 0 0 7px rgb(80, 80, 80);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  padding: 5;
+  height: 2px;
+  border: none;
+  border-top: 3px solid rgb(88, 88, 88);
+  box-shadow: 10px 10px 10px -10px #8c8b8b inset;
+  width: 50%;
+}
+
+.maininfo {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  text-align: left;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  color: rgb(114, 114, 114);
+  font-style: italic;
+}
