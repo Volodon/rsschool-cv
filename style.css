@@ -4,7 +4,7 @@ body {
   color: rgb(0, 0, 0);
   line-height: 1.1;
   text-align: center;
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(179, 179, 179);
 }
 
 h2 {
@@ -13,7 +13,10 @@ h2 {
   color: rgb(0, 0, 0);
   line-height: 1.1;
   text-align: center;
-  background-color: rgb(194, 194, 194);
+  background-color: rgb(179, 179, 179);
+  margin: 0;
+  padding: 0;
+  margin-bottom: -15px;
 }
 
 .list {
@@ -32,14 +35,21 @@ h2 {
 
 hr {
   margin: auto;
-  padding: 10;
+  padding: 5;
   height: 2px;
   border: none;
   border-top: 3px solid rgb(88, 88, 88);
-  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  box-shadow: 10px 10px 10px -10px #8c8b8b inset;
 }
 
 .maininfo {
   color: rgb(0, 0, 0);
   text-align: center;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  color: rgb(114, 114, 114);
+  font-style: italic;
 }
