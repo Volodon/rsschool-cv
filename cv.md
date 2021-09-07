@@ -16,6 +16,7 @@ My goal is to become a web developer and find a job. I have a great desire to le
 - basic knowledge of HTML
 - basic knowledge of CSS
 - basic knowledge of Git&Github
+- basic JS
 - a little understanding of working with VS Code
 
 ## Code examples
