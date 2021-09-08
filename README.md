@@ -1,1 +1,1 @@
-https://github.com/Volodon/rsschool-cv
+https://volodon.github.io/rsschool-cv/
