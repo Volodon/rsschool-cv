@@ -8,16 +8,16 @@ body {
 }
 
 .footer_menu {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
-  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
   display: flex;
   justify-content: center;
 }
 
 .footer_menu li {
-  float: left; /*Размещаем список горизонтально для реализации меню*/
-  margin-right: 30px; /*Добавляем отступ у пунктов меню*/
+  float: left; 
+  margin-right: 30px; 
 }
 
 .footer_menu a {
