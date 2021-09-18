@@ -7,6 +7,24 @@ body {
   background-color: rgba(168, 168, 168, 0.925);
 }
 
+.footer_menu {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+  display: flex;
+  justify-content: center;
+}
+
+.footer_menu li {
+  float: left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right: 30px; /*Добавляем отступ у пунктов меню*/
+}
+
+.footer_menu a {
+  text-decoration: none;
+  display: block;
+}
+
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
@@ -39,7 +57,7 @@ h1 {
   border-radius: 50%;
   border: 0px solid rgb(170, 170, 170);
   box-shadow: 0 0 7px rgb(80, 80, 80);
-  margin: 20px auto;
+  margin: 30px auto;
   overflow: hidden;
   transition: 1s;
   display: block;
@@ -64,6 +82,11 @@ hr {
   display: inline-block;
   text-align: left;
   list-style-type: none;
+}
+
+.code {
+  display: inline-block;
+  padding: auto;
 }
 
 .footer {
