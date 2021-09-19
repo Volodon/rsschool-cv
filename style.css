@@ -17,13 +17,23 @@ body {
 
 .footer_menu li {
   float: left; 
-  margin-right: 30px; 
+  margin-right: 40px; 
 }
 
 .footer_menu a {
+  color: #000000;
   text-decoration: none;
   display: block;
+  transition: 1s;
 }
+
+.footer_menu a:visited {
+  color: #000000; 
+ }
+
+ .footer_menu a:hover {
+  transform: scale(1.20);
+ }
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -47,10 +57,18 @@ h1 {
   padding: 0;
 }
 
+.div {
+  margin: 20px;
+}
+
 .list {
   color: rgb(0, 0, 0);
   display: inline-block;
   text-align: left;
+}
+
+li img {
+  vertical-align: middle;
 }
 
 .photo {
@@ -77,6 +95,10 @@ hr {
   width: 50%;
 }
 
+.aboutme {
+  padding: 20px 400px;
+}
+
 .maininfo {
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -86,12 +108,27 @@ hr {
 
 .code {
   display: inline-block;
-  padding: auto;
 }
 
 .footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   text-align: center;
-  font-size: 10px;
-  color: rgb(168, 168, 168, 0.925);
+  padding: 0 5px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.925);
   font-style: italic;
+  align-items: center;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.footani:hover {
+  transform: scale(1.20);
+}
+
+.footani {
+  width: calc(1/3*100% - 10px);
+  margin: 5px;
 }
