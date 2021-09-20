@@ -2,45 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
 </head>
 <body>
     <header>
-        <h1>My CV</h1>
-        <img src="https://www.meme-arsenal.com/memes/a5365dfac79e08ce52538cfcb9124d3f.jpg" alt="My photo" width="240" height="240" class="photo">
+        <nav><ul class="footer_menu">
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#ed">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#exp">WORK EXPERIENCE</a></li>
+            <li><a href="#eng">ENGLISH LEVEL</a></li>
+            </ul></nav>
+
+        <div><img src="https://www.meme-arsenal.com/memes/a5365dfac79e08ce52538cfcb9124d3f.jpg" alt="My photo" width="240" height="240" class="photo"></div>
+
       </header>
-        <p class="maininfo">
-            Name: Vladimir Lukianenko<br>
-            Date of birth: 31.03.1991<br>
-            Sex: Male<br>
-            Adress: <a href="https://maps.google.com/?ll=53.900690809242285,27.557709607144073">Minsk, Republic of Belarus</a><br>
-            Email: <a href="mailto:vladi.lukianenko@gmail.com">vladi.lukianenko@gmail.com</a><br>
-            Telegram: <a href="tg://resolve?domain=@Vladi_the_Great">@Vladi_the_Great</a><br>
-        </p>
+        <ul class="maininfo">
+            <li>Name: Vladimir Lukianenko</li>
+            <li>Date of birth: 31.03.1991</li>
+            <li>Sex: Male</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Google_Maps_Logo_2020.svg" alt="Adress" width="28" ><a href="https://maps.google.com/?ll=53.900690809242285,27.557709607144073"> Minsk, Republic of Belarus</a></li>
+            <li><img src="https://svgshare.com/i/aHq.svg" alt="Mail" width="28" ><a href="mailto:vladi.lukianenko@gmail.com"> vladi.lukianenko@gmail.com</a></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" width="28" ><a href="tg://resolve?domain=@Vladi_the_Great"> @Vladi_the_Great</a></li>
+            <li><img src="https://svgshare.com/i/aKm.svg" alt="Discord" width="100" ><a href="https://discord.com"> @valdis</a></li>
+        </ul>
+
         <hr/> 
-    <h2>EDUCATION</h2>
-    <p>
-        Belarusian National Technical University, Geodesy
-    </p>
+
+    <div class="aboutme">
+        <h2 id="about">ABOUT ME</h2>
+            <p>
+                My goal is to become a web developer and find a job. I have a great desire to learn new things. I have the ability to learn quickly due to the thirst for new knowledge and interest in web development.
+            </p>
+    </div>
+
+    <hr>
+
+    <div class="div">
+        <h2 id="ed">EDUCATION</h2>
+            <p>
+                Belarusian National Technical University, Geodesy
+            </p>
+    </div>
+
     <hr/>
-    <h2>SKILLS</h2>
-    <ul class="list">
-        <li>basic knowledge of HTML</li>
-        <li>basic knowledge of CSS</li>
-        <li>basic knowledge of Git&Github</li>
-        <li>little understanding of working with VS Code</li>
-    </ul>
+
+    <div class="div">
+        <h2 id="skills">SKILLS</h2>
+            <ul class="list">
+                <li>basic knowledge of HTML</li>
+                <li>basic knowledge of CSS</li>
+                <li>basic knowledge of Git&Github</li>
+                <li>little understanding of working with VS Code</li>
+            </ul>
+    </div>
+
     <hr/>
-    <h2>ENGLISH LEVEL</h2>
-    <p>
-        A2
-    </p> 
+
+    <div class="div">
+        <h2 id="exp">WORK EXPERIENCE</h2>
+            <p>No experience</p>
+    </div>
+    
+    <hr/>
+
+    <div class="div">
+        <h2 id="eng">ENGLISH LEVEL</h2>
+            <p>
+                A2
+            </p> 
+    </div>
     <footer class="footer">
-        <a href="https://github.com/volodon">My GitHub</a><br>
-        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSS-logo" width="50" height="25"></a><br>
+        <a href="https://github.com/volodon" class="footani"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjYgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMS4zODcuNTk5LjExMS43OTMtLjI2MS43OTMtLjU3N3YtMi4yMzRjLTMuMzM4LjcyNi00LjAzMy0xLjQxNi00LjAzMy0xLjQxNi0uNTQ2LTEuMzg3LTEuMzMzLTEuNzU2LTEuMzMzLTEuNzU2LTEuMDg5LS43NDUuMDgzLS43MjkuMDgzLS43MjkgMS4yMDUuMDg0IDEuODM5IDEuMjM3IDEuODM5IDEuMjM3IDEuMDcgMS44MzQgMi44MDcgMS4zMDQgMy40OTIuOTk3LjEwNy0uNzc1LjQxOC0xLjMwNS43NjItMS42MDQtMi42NjUtLjMwNS01LjQ2Ny0xLjMzNC01LjQ2Ny01LjkzMSAwLTEuMzExLjQ2OS0yLjM4MSAxLjIzNi0zLjIyMS0uMTI0LS4zMDMtLjUzNS0xLjUyNC4xMTctMy4xNzYgMCAwIDEuMDA4LS4zMjIgMy4zMDEgMS4yMy45NTctLjI2NiAxLjk4My0uMzk5IDMuMDAzLS40MDQgMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMnYzLjI5M2MwIC4zMTkuMTkyLjY5NC44MDEuNTc2IDQuNzY1LTEuNTg5IDguMTk5LTYuMDg2IDguMTk5LTExLjM4NiAwLTYuNjI3LTUuMzczLTEyLTEyLTEyeiIvPjwvc3ZnPg==" alt="github"></a>
         <p>2021</p>
-      </footer>  
+        <a href="https://rs.school/js/" class="footani"><img src="https://rs.school/images/rs_school_js.svg" alt="RSS-logo" width="50" height="25"></a>
+    </footer>  
+    <script src="script.js"></script>
 </body>
 </html>
