@@ -1,3 +1,7 @@
+html {
+  overflow-x:hidden;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -8,16 +12,17 @@ body {
 }
 
 .footer_menu {
+  padding: 10px;
   list-style: none; 
   margin: 0; 
   padding-left: 0; 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer_menu li {
   float: left; 
-  margin-right: 40px; 
 }
 
 .footer_menu a {
@@ -95,17 +100,15 @@ hr {
   width: 50%;
 }
 
-.aboutme {
-  padding: 20px 400px;
-}
-
 .maininfo {
   color: rgb(0, 0, 0);
-  display: inline-block;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   line-height: 1.5;
+  align-items: center;
 }
+
 
 .maininfo a {
   text-decoration: none;
@@ -133,4 +136,18 @@ hr {
 .footani {
   width: calc(1/3*100% - 10px);
   margin: 5px;
+}
+
+@media (max-width: 520px) {
+  
+  .footer_menu{
+    flex-direction: column;
+  }
+
+  #menu li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-right: 0;
+ }
 }
